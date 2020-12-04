@@ -186,6 +186,30 @@ Carbon dioxide detected state can be `NORMAL` or `ABNORMAL`. To use different va
 ```
 
 
+## Carbon Monoxide Sensor
+
+Carbon monoxide detected state can be `NORMAL` or `ABNORMAL`. To use different values, specify them in **carbonMonoxideDetectedValues** in that order.
+
+```javascript
+{
+    "accessory": "mqttthing",
+    "type": "carbonMonoxideSensor",
+    "name": "<name of device>",
+    "topics":
+    {
+        "getCarbonMonoxideDetected":     "<topic used to report carbon monoxide detected",
+        "getCarbonMonoxideLevel":        "<topic used to report carbon monoxide level (optional)>",
+        "getCarbonMonoxidePeakLevel":    "<topic used to report carbon monoxide level (optional)>",
+        "getStatusActive":              "<topic used to provide 'active' status (optional)>",
+        "getStatusFault":               "<topic used to provide 'fault' status (optional)>",
+        "getStatusTampered":            "<topic used to provide 'tampered' status (optional)>",
+        "getStatusLowBattery":          "<topic used to provide 'low battery' status (optional)>"
+    },
+    "carbonMonoxideDetectedValues": [ "normal-value", "abnormal-value" ]
+}
+```
+
+
 ## Contact Sensor
 
 Contact sensor state is exposed as a Boolean. True (or 1 with integer values) maps to `CONTACT_NOT_DETECTED` (sensor triggered)

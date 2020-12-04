@@ -45,6 +45,7 @@ The following Homekit accessory types are supported by MQTT-Thing:
    * [Air Purifier](docs/Accessories.md#air-purifier)
    * [Air Quality Sensor](docs/Accessories.md#air-quality-sensor)
    * [Carbon Dioxide Sensor](docs/Accessories.md#carbon-dioxide-sensor)
+   * [Carbon Monoxide Sensor](docs/Accessories.md#carbon-monoxide-sensor)
    * [Contact Sensor](docs/Accessories.md#contact-sensor)
    * [Doorbell](docs/Accessories.md#doorbell)
    * [Fan](docs/Accessories.md#fan)

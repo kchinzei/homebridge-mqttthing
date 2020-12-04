@@ -161,6 +161,10 @@ This section lists the properties available for each accessory type. All accesso
 
 `carbonDioxideDetected`, `carbonDioxideLevel`, `carbonDioxidePeakLevel`, `statusActive`, `statusFault`, `statusTampered`, `statusLowBattery`
 
+### Carbon Monoxide Sensor
+
+`carbonMonoxideDetected`, `carbonMonoxideLevel`, `carbonMonoxidePeakLevel`, `statusActive`, `statusFault`, `statusTampered`, `statusLowBattery`
+
 ### Contact Sensor
 
 `contactSensorState`, `statusActive`, `statusFault`, `statusTampered`, `statusLowBattery`

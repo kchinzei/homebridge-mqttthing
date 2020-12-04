@@ -711,6 +711,16 @@
         },
         {
             "accessory": "mqttthing",
+            "type": "carbonMonoxideSensor",
+            "name": "CO",
+            "url": "http://192.168.10.35:1883",
+            "logMqtt": "true",
+            "topics": {
+                "getCarbonMonoxideDetected": "test/co/get"
+            }
+        },
+        {
+            "accessory": "mqttthing",
             "type": "airQualitySensor",
             "name": "AirQuality",
             "url": "http://192.168.10.35:1883",
